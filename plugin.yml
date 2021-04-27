@@ -1,0 +1,19 @@
+name: AutoGreeting
+version: 1.6
+main: ru.astakhovmd.AutoGreeting.AutoGreeting
+author: ProfessorZel
+api-version: 1.16
+description: Automatic greeting when player joins!
+permissions:
+  AutoGreeting.use:
+    default: "true"
+    description: "Allows you use autowb"
+  AutoGreeting.admin:
+    default: "op"
+    description: "Allows you manage autowb"
+
+
+commands:
+  autowb:
+    usage: /autowb on|off
+    description: Toggle, reload and autocolect commands.
